@@ -1,0 +1,91 @@
+/* test css written by Sherrod Blankner */
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.col-centered-offset {
+	margin-top: 20px;
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    margin-left: 20px;
+    border-radius: 6px;
+}
+
+
+.label_div{
+	margin-top: 5px;
+}
+
+
+.key_group{
+  margin-right: 8px;
+}
+
+
+.navbar-brand img{
+  margin-top: -5px;
+}
+
+li.dropdown a.dropdown-toggle.active
+{
+  color: #000;
+  background-color: #e7e7e7;
+}
+
+.round-background{
+  background-color: #e7e7e7;
+  padding: 10px 10px 10px 10px;
+  border-radius: 6px;
+}
+
+.round-background-cleaner{
+  background-color: #d5ead6;
+  padding: 10px 10px 10px 10px;
+  border-radius: 6px;
+}
+
+.top-liteGrey{
+  border-top: 1px solid #e7e7e7;
+}
+
+.background-liteGrey{
+  background-color: #f8f8f8;
+}
+
+#total{
+	margin-top: 15px;
+}
+
+.small_h1{
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.text_div{
+    padding-bottom: 40px;
+}
+
+/*  light grey background-color: #f8f8f8; */
+
+/* border: 1px solid #999;  */
+
+.autocomplete-suggestions { background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }

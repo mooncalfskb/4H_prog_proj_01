@@ -7,22 +7,56 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- bootstrap -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> 
+	<link rel="stylesheet" type="text/css" href="css/fourH.css"> 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery-3.3.1.min.js"></script> 
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script> 
+	<!-- ibm database -->
+	<script src="js/fourH_ibm_tables.js?0001"></script> 
+	<script src="js/fourH_doc_ready.js?0001"></script> 
+
 
 </head>
 <body>
 
-<div>
-<h1>Hello 4H!</h1>
-<h2>See Yourself Like a Computer Sees You</h2>
-<form id="assembly">
-<input type="text" value="Enter Your Name"></input>
-<input type="submit">
+<div id="container">
+	<div class="row col-md-12">
+	   <div class="col-xs-12 col-s-12 col-md-12 col-lg-12 col-centered">
+	   <h1>Hello 4H Programmers!</h1>
+		<h2>See Yourself Like a Computer Sees You</h2>
 
-</form>
+	   </div>
+	</div>
+</div>
+
+
+<div id="assembly_form_div" class="row row-centered col-md-12">
+	<div class="col-xs-12 col-md-12 col-lg-12 col-centered">
+	   <div class="round-background">
+		<form id="assembly"> 
+			<div id="first_line" class="form-group">
+			<label for="name">Enter Some Text, like Your Name:</label>
+			<input type="text" value=""></input>
+			</div>
+			<div id="second_line" class="form-group">
+			<input type="radio" id="Ascii" name="char_type" value="Ascii" />
+			<label class="form-check-label" for="Ascii">Ascii</label>
+			<input type="radio" id="Decimal" name="char_type" value="Decimal" />
+			<label class="form-check-label" for="Decimal">Decimal</label>
+			<input type="radio" id="Hexidecimal" name="char_type" value="Hexidecimal" />
+			<label class="form-check-label" for="Hexidecimal">Hexidecimal</label>
+			<input type="radio" id="Octal" name="char_type" value="Octal" />
+			<label class="form-check-label" for="Octal">Octal</label>
+			<input type="radio" id="Binary" name="char_type" value="Binary" checked />
+			<label class="form-check-label" for="Binary">Binary</label>
+			</div>
+			<div id="third_line" class="form-group">
+			<input type="submit" id="binary_submit">
+			</div>
+		</form>
+		</div>
+	</div>
 </div>
 </body>
 </html>
