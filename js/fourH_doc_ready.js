@@ -34,7 +34,7 @@
 		   location.reload();
 		});	
 		
-		convertText(IBM_json);
+		convertText(IBM_json, char_type_defs);
 		
 		/*
 		//function to handle submit on the assembly form

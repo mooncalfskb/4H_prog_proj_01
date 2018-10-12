@@ -3,6 +3,15 @@ IBM TABLE JSON, written by Sherrod Blankner, Phlebas Consulting
 
  */
 
+var char_type_defs = {
+	"Ascii": "<a href='https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html' target='_blank'>ASCII</a> (American Standard Code for Information Interchange) is the most common format for text files in computers and on the Internet. In an ASCII file, each alphabetic, numeric, or special character is represented with a 7-bit binary number (a string of seven 0s or 1s). 128 possible characters are defined.",
+	"Decimal": "Decimal is a term that describes the base-10 number system, probably the most commonly used number system. The decimal number system consists of ten single- digit numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. ... In computing, the binary , octal , or hexadecimal number system may be used instead of the decimal system.",
+	"Hexidecimal":"<a href='https://whatis.techtarget.com/definition/hexadecimal' target='_blank'>Hexadecimal</a> describes a base-16 number system. That is, it describes a numbering system containing 16 sequential numbers as base units (including 0) before adding a new position for the next number.",
+	"Octal": "Octal refers to the base-8 numbering system. In computing environments, it is commonly used as a shorter representation of binary numbers by grouping binary digits into threes.",
+	"Binary":"All digital data used in computer systems consists of binary information, which contains only 0s and 1s. A single binary digit is referred to as a bit."
+};
+
+/*Every 'n' bit can be used to represent 2^n different values.*/
 
 var IBM_json = {
 	" ": {"Ascii":" ","Decimal":"32","Hexidecimal":"20","Octal":"40","Binary":"100000"},

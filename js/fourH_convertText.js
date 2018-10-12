@@ -1,4 +1,4 @@
-function convertText(IBM_json){
+function convertText(IBM_json, char_type_defs){
 
    var new_str = new String();
 
@@ -23,7 +23,8 @@ function convertText(IBM_json){
 	var html = new String();
 	var html = "<h3>" + name + " in " + char_type + "</h3>";
 	var html = html + "<p>" + new_str + "</p>";
-	
+	var html = html + "<p></p>";
+	var html = html + "<p>" + char_type_defs[char_type] + "</p>";
 	
 	$( "#Answer" ).html(html);
 
