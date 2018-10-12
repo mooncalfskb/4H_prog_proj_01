@@ -20,7 +20,8 @@
 		
 		//get the vars from the query string
 		var allVars = getUrlVars();
-		var name = getUrlVar('name');	
+		var name = getUrlVar('name');
+		var name = fixName(name);
 		var char_type = getUrlVar('char_type');
 		//set the values of the form to the values you submitted
 		$("#name").val(name);
@@ -33,7 +34,7 @@
 		   location.reload();
 		});	
 		
-		convertText();
+		convertText(IBM_json);
 		
 		/*
 		//function to handle submit on the assembly form
